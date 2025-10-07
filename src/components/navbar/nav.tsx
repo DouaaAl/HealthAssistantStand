@@ -2,22 +2,15 @@
 import React, { useEffect, useState } from 'react'
 import style from "./nav.module.css"
 import Image from 'next/image'
-import { checkDoctorMetadata, setDoctorMetadata, syncClerkUserToDb } from '@/server/user'
+
 
 const nav = () => {
   const [noMetaData, setNoMetaData] = useState(false);
 
   const changeUserInfo = async(isDoctor: boolean) =>{
-    let res = await setDoctorMetadata(isDoctor);
     setNoMetaData(false);
   }
-  const checkIsDoc = async()=>{
-    let res = await checkDoctorMetadata();
-    setNoMetaData(!res);
-  }
-  const checkuser = async() =>{
-    await syncClerkUserToDb();
-  }
+
   useEffect(()=>{
   }, [])
 
