@@ -1,0 +1,36 @@
+{
+  "name": "healthcomp",
+  "version": "1.0.0",
+  "description": "This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+  "url": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DouaaAl/healthassistant/issues"
+  },
+  "homepage": "https://github.com/DouaaAl/healthassistant#readme",
+  "dependencies": {
+    "firebase": "^9.23.0",
+    "next": "^15.5.4",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-firebaseui": "^6.0.0",
+    "recharts": "^3.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.7.0",
+    "@types/react": "^19.2.2",
+    "typescript": "^5.9.3"
+  }
+}
