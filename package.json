@@ -7,11 +7,12 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "postinstall": "prisma generate"
   },
   "repository": {
     "type": "git",
-  "url": ""
+    "url": ""
   },
   "keywords": [],
   "author": "",
@@ -21,6 +22,8 @@
   },
   "homepage": "https://github.com/DouaaAl/healthassistant#readme",
   "dependencies": {
+    "@clerk/nextjs": "^6.33.3",
+    "@prisma/client": "^6.16.3",
     "firebase": "^9.23.0",
     "next": "^15.5.4",
     "react": "^19.2.0",
@@ -31,6 +34,7 @@
   "devDependencies": {
     "@types/node": "^24.7.0",
     "@types/react": "^19.2.2",
+    "prisma": "^6.16.3",
     "typescript": "^5.9.3"
   }
 }
